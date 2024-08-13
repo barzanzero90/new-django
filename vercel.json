@@ -5,6 +5,11 @@
       "PIP_DISABLE_PIP_VERSION_CHECK": "on"
     }
   },
+  "functions": {
+    "api/**/*.py": {
+      "runtime": "python3.11"
+    }
+  },
   "routes": [
     {
       "src": "/(.*)",
