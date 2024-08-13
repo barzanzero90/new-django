@@ -4,5 +4,11 @@
       "PIP_NO_CACHE_DIR": "on",
       "PIP_DISABLE_PIP_VERSION_CHECK": "on"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
 }
